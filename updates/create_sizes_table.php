@@ -1,4 +1,4 @@
-<?php namespace Itmaker\Banner\Updates;
+<?php namespace Shohabbos\Banner\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;

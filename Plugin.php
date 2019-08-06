@@ -1,4 +1,4 @@
-<?php namespace Itmaker\Banner;
+<?php namespace Shohabbos\Banner;
 
 use Backend;
 use Form;
@@ -23,7 +23,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'itmaker.banner::lang.plugin.name',
             'description' => 'itmaker.banner::lang.plugin.description',
-            'author'      => 'Itmaker',
+            'author'      => 'Shohabbos',
             'icon'        => 'icon-picture-o'
         ];
     }
@@ -36,7 +36,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Itmaker\Banner\Components\Banners' => 'BannerBanners',
+            'Shohabbos\Banner\Components\Banners' => 'BannerBanners',
         ];
     }
 

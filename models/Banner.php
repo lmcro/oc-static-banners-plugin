@@ -1,4 +1,4 @@
-<?php namespace Itmaker\Banner\Models;
+<?php namespace Shohabbos\Banner\Models;
 
 use Cms\Classes\Page;
 use Model;
@@ -23,7 +23,7 @@ use October\Rain\Database\Traits\Validation;
  * @property string                                 icon
  * @property string                                 link_type
  * @property string                                 text_pos
- * @property \Itmaker\Banner\Models\Size size
+ * @property \Shohabbos\Banner\Models\Size size
  * @property Product                                product
  * @property \System\Models\File                    image
  * @property \System\Models\File                    background

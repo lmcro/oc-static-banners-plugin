@@ -1,10 +1,10 @@
-<?php namespace Itmaker\Banner\Controllers;
+<?php namespace Shohabbos\Banner\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
 use Flash;
 use Lang;
-use Itmaker\Banner\Models\Banner;
+use Shohabbos\Banner\Models\Banner;
 
 /**
  * Banners Back-end Controller
@@ -28,7 +28,7 @@ class Banners extends Controller
         $this->addCss('/plugins/itmaker/banner/assets/css/banner.css');
         $this->addCss('/themes/itmaker-banner-store/assets/css/font-banner.css');
 
-        BackendMenu::setContext('Itmaker.Banner', 'banner', 'banners');
+        BackendMenu::setContext('Shohabbos.Banner', 'banner', 'banners');
     }
 
     /**

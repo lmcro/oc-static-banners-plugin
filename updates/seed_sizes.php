@@ -1,7 +1,7 @@
-<?php namespace Itmaker\Banner\Updates;
+<?php namespace Shohabbos\Banner\Updates;
 
 use October\Rain\Database\Updates\Seeder;
-use Itmaker\Banner\Models\Size;
+use Shohabbos\Banner\Models\Size;
 
 class SeedSizes extends Seeder
 {

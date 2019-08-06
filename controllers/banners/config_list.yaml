@@ -6,7 +6,7 @@
 list: $/itmaker/banner/models/banner/columns.yaml
 
 # Model Class name
-modelClass: Itmaker\Banner\Models\Banner
+modelClass: Shohabbos\Banner\Models\Banner
 
 # List Title
 title: itmaker.banner::lang.banner.list_title

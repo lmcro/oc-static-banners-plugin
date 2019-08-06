@@ -1,7 +1,7 @@
-<?php namespace Itmaker\Banner\Components;
+<?php namespace Shohabbos\Banner\Components;
 
 use Cms\Classes\ComponentBase;
-use Itmaker\Banner\Models\Banner;
+use Shohabbos\Banner\Models\Banner;
 
 class Banners extends ComponentBase
 {
@@ -19,7 +19,7 @@ class Banners extends ComponentBase
      * @param string       $size
      * @param bool|integer $first
      *
-     * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Eloquent\Model|object|\Itmaker\Banner\Components\Banners[]|\Itmaker\Banner\Models\Banner
+     * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Eloquent\Model|object|\Shohabbos\Banner\Components\Banners[]|\Shohabbos\Banner\Models\Banner
      */
     public function load($size, $first = true)
     {

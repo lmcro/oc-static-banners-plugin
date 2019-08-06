@@ -7,7 +7,7 @@
  * Time: 06:03 AM
  */
 
-namespace Itmaker\Banner\Updates;
+namespace Shohabbos\Banner\Updates;
 
 
 use Schema;
@@ -16,7 +16,7 @@ use October\Rain\Database\Updates\Migration;
 /**
  * Class add_icon_column_banners_table
  *
- * @package Itmaker\Banner\Updates
+ * @package Shohabbos\Banner\Updates
  */
 class AddIconColumnBannersTable extends Migration
 {

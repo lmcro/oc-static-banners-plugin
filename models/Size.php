@@ -1,4 +1,4 @@
-<?php namespace Itmaker\Banner\Models;
+<?php namespace Shohabbos\Banner\Models;
 
 use Model;
 use October\Rain\Database\Traits\Validation;

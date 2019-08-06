@@ -9,7 +9,7 @@ name: itmaker.banner::lang.banner.label
 form: $/itmaker/banner/models/banner/fields.yaml
 
 # Model Class name
-modelClass: Itmaker\Banner\Models\Banner
+modelClass: Shohabbos\Banner\Models\Banner
 
 # Default redirect location
 defaultRedirect: itmaker/banner/banners

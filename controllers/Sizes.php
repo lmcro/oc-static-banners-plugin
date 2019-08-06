@@ -1,10 +1,10 @@
-<?php namespace Itmaker\Banner\Controllers;
+<?php namespace Shohabbos\Banner\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
 use Flash;
 use Lang;
-use Itmaker\Banner\Models\Size;
+use Shohabbos\Banner\Models\Size;
 
 /**
  * Sizes Back-end Controller
@@ -23,7 +23,7 @@ class Sizes extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Itmaker.Banner', 'banner', 'sizes');
+        BackendMenu::setContext('Shohabbos.Banner', 'banner', 'sizes');
     }
 
     /**
