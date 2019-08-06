@@ -4,10 +4,10 @@
 
 columns:
     size:
-        label: itmaker.banner::lang.fields.size
+        label: shohabbos.banner::lang.fields.size
         relation: size
         select: name
     escape_title:
-        label: itmaker.banner::lang.fields.title
+        label: shohabbos.banner::lang.fields.title
     escape_subtitle:
-        label: itmaker.banner::lang.fields.subtitle
+        label: shohabbos.banner::lang.fields.subtitle

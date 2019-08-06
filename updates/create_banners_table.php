@@ -8,7 +8,7 @@ class CreateBannersTable extends Migration
 {
     public function up()
     {
-        Schema::create('itmaker_banner_banners', function(Blueprint $table) {
+        Schema::create('shohabbos_banner_banners', function(Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateBannersTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('itmaker_banner_banners');
+        Schema::dropIfExists('shohabbos_banner_banners');
     }
 }

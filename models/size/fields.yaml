@@ -4,13 +4,13 @@
 
 fields:
     name:
-        label: itmaker.banner::lang.fields.name
-        comment: itmaker.banner::lang.fields.size_name_comment
+        label: shohabbos.banner::lang.fields.name
+        comment: shohabbos.banner::lang.fields.size_name_comment
         commentHtml: true
         span: left
 
     image:
-        label: itmaker.banner::lang.fields.image
+        label: shohabbos.banner::lang.fields.image
         span: right
         type: fileupload
         mode: image

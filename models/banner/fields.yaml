@@ -4,72 +4,72 @@
 
 fields:
     pretitle:
-        label: itmaker.banner::lang.fields.pretitle
+        label: shohabbos.banner::lang.fields.pretitle
 
 tabs:
     fields:
         title:
-            label: itmaker.banner::lang.fields.title
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.title
+            tab: shohabbos.banner::lang.tabs.general
             span: left
             type: richeditor
             toolbarButtons: bold|italic|html
             size: small
         subtitle:
-            label: itmaker.banner::lang.fields.subtitle
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.subtitle
+            tab: shohabbos.banner::lang.tabs.general
             span: right
             type: richeditor
             toolbarButtons: bold|italic|html
             size: small
 
         text_pos:
-            label: itmaker.banner::lang.fields.text_pos
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.text_pos
+            tab: shohabbos.banner::lang.tabs.general
             span: left
             type: dropdown
             options:
-              none: itmaker.banner::lang.fields.none
-              left: itmaker.banner::lang.fields.left
-              right: itmaker.banner::lang.fields.right
-              center: itmaker.banner::lang.fields.center
+              none: shohabbos.banner::lang.fields.none
+              left: shohabbos.banner::lang.fields.left
+              right: shohabbos.banner::lang.fields.right
+              center: shohabbos.banner::lang.fields.center
 
         offer:
-            label: itmaker.banner::lang.fields.offer
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.offer
+            tab: shohabbos.banner::lang.tabs.general
             span: left
 
         button_label:
-            label: itmaker.banner::lang.fields.button_label
-            comment: itmaker.banner::lang.fields.button_label_comment
+            label: shohabbos.banner::lang.fields.button_label
+            comment: shohabbos.banner::lang.fields.button_label_comment
             commentHtml: true
-            tab: itmaker.banner::lang.tabs.general
+            tab: shohabbos.banner::lang.tabs.general
             span: right
 
         bottom_caption:
-            label: itmaker.banner::lang.fields.bottom_caption
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.bottom_caption
+            tab: shohabbos.banner::lang.tabs.general
             span: left
 
         icon:
-            label: itmaker.banner::lang.fields.icon
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.icon
+            tab: shohabbos.banner::lang.tabs.general
             type: dropdown
             span: right
 
         link_type:
-            label: itmaker.banner::lang.fields.link_type
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.link_type
+            tab: shohabbos.banner::lang.tabs.general
             span: left
             type: dropdown
             options:
-                none: itmaker.banner::lang.fields.none
-                product: itmaker.banner::lang.fields.product
-                page: itmaker.banner::lang.fields.page
-                url: itmaker.banner::lang.fields.url
+                none: shohabbos.banner::lang.fields.none
+                product: shohabbos.banner::lang.fields.product
+                page: shohabbos.banner::lang.fields.page
+                url: shohabbos.banner::lang.fields.url
         page:
-            label: itmaker.banner::lang.fields.page
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.page
+            tab: shohabbos.banner::lang.tabs.general
             span: right
             type: dropdown
             trigger:
@@ -77,8 +77,8 @@ tabs:
                 field: link_type
                 condition: value[page]
         url:
-            label: itmaker.banner::lang.fields.url
-            tab: itmaker.banner::lang.tabs.general
+            label: shohabbos.banner::lang.fields.url
+            tab: shohabbos.banner::lang.tabs.general
             span: right
             trigger:
                 action: show
@@ -86,16 +86,16 @@ tabs:
                 condition: value[url]
 
         _example:
-            label: itmaker.banner::lang.fields.example
-            comment: itmaker.banner::lang.fields.example_comment
+            label: shohabbos.banner::lang.fields.example
+            comment: shohabbos.banner::lang.fields.example_comment
             commentHtml: true
-            tab: itmaker.banner::lang.tabs.description
+            tab: shohabbos.banner::lang.tabs.description
             type: section
 
 
         image:
-            label: itmaker.banner::lang.fields.image
-            tab: itmaker.banner::lang.tabs.image
+            label: shohabbos.banner::lang.fields.image
+            tab: shohabbos.banner::lang.tabs.image
             type: fileupload
             mode: image
             thumbOptions:
@@ -103,8 +103,8 @@ tabs:
                 extension: auto
 
         background:
-            label: itmaker.banner::lang.fields.background
-            tab: itmaker.banner::lang.tabs.image
+            label: shohabbos.banner::lang.fields.background
+            tab: shohabbos.banner::lang.tabs.image
             type: fileupload
             mode: image
             thumbOptions:
@@ -114,10 +114,10 @@ tabs:
 secondaryTabs:
     fields:
         size:
-            label: itmaker.banner::lang.fields.size
-            tab: itmaker.banner::lang.tabs.size
+            label: shohabbos.banner::lang.fields.size
+            tab: shohabbos.banner::lang.tabs.size
             type: recordfinder
-            list: $/itmaker/banner/models/size/columns.yaml
-            prompt: itmaker.banner::lang.fields.size_finder
+            list: $/shohabbos/banner/models/size/columns.yaml
+            prompt: shohabbos.banner::lang.fields.size_finder
             nameFrom: name
             descriptionFrom: image.path

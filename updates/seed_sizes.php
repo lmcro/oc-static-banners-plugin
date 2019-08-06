@@ -35,7 +35,7 @@ class SeedSizes extends Seeder
             '1920x650',
             '1920x900',
         ];
-        $path = plugins_path('itmaker/banner/assets/images/banners');
+        $path = plugins_path('shohabbos/banner/assets/images/banners');
 
         foreach ($sizes as $size) {
             $model = new Size;

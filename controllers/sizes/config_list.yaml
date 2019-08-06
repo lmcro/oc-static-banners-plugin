@@ -3,16 +3,16 @@
 # ===================================
 
 # Model List Column configuration
-list: $/itmaker/banner/models/size/columns.yaml
+list: $/shohabbos/banner/models/size/columns.yaml
 
 # Model Class name
 modelClass: Shohabbos\Banner\Models\Size
 
 # List Title
-title: itmaker.banner::lang.size.list_title
+title: shohabbos.banner::lang.size.list_title
 
 # Link URL for each record
-recordUrl: itmaker/banner/sizes/update/:id
+recordUrl: shohabbos/banner/sizes/update/:id
 
 # Message to display if the list is empty
 noRecordsMessage: backend::lang.list.no_records

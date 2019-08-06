@@ -37,7 +37,7 @@ return [
         'button_label_comment' => 'Se mostrará solo si se ha definido <b>Tipo de enlace</b>',
         'bottom_caption'       => 'Texto inferior',
         'example'              => 'Ejemplo',
-        'example_comment'      => '<img src="/plugins/itmaker/banner/assets/images/banners/example-es.png" class="img-responsive" />',
+        'example_comment'      => '<img src="/plugins/shohabbos/banner/assets/images/banners/example-es.png" class="img-responsive" />',
         'size_name_comment'    => 'El formato debe ser de tipo <b>{número}x{número}</b>. Ejemplo: <code>300x300</code>',
         'background'           => 'Imagen de fondo',
         'icon'                 => 'Icono del botón',

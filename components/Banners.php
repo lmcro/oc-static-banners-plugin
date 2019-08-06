@@ -10,8 +10,8 @@ class Banners extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'itmaker.banner::lang.components.banners.name',
-            'description' => 'itmaker.banner::lang.components.banners.description'
+            'name'        => 'shohabbos.banner::lang.components.banners.name',
+            'description' => 'shohabbos.banner::lang.components.banners.description'
         ];
     }
 

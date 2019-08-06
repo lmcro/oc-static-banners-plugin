@@ -20,7 +20,7 @@ use October\Rain\Database\Updates\Migration;
  */
 class AddIconColumnBannersTable extends Migration
 {
-    protected $tablename = 'itmaker_banner_banners';
+    protected $tablename = 'shohabbos_banner_banners';
 
     public function up()
     {

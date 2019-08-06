@@ -1,8 +1,8 @@
 <div data-control="toolbar">
     <a
-        href="<?= Backend::url('itmaker/banner/sizes/create') ?>"
+        href="<?= Backend::url('shohabbos/banner/sizes/create') ?>"
         class="btn btn-primary oc-icon-plus">
-        <?= e(trans('itmaker.banner::lang.size.new')) ?>
+        <?= e(trans('shohabbos.banner::lang.size.new')) ?>
     </a>
 
     <button
@@ -12,7 +12,7 @@
             checked: $('.control-list').listWidget('getChecked')
         })"
         data-request="onDelete"
-        data-request-confirm="<?= e(trans('itmaker.banner::lang.sizes.delete_selected_confirm')) ?>"
+        data-request-confirm="<?= e(trans('shohabbos.banner::lang.sizes.delete_selected_confirm')) ?>"
         data-trigger-action="enable"
         data-trigger=".control-list input[type=checkbox]"
         data-trigger-condition="checked"

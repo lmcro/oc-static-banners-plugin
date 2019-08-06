@@ -25,8 +25,8 @@ class Banners extends Controller
     {
         parent::__construct();
 
-        $this->addCss('/plugins/itmaker/banner/assets/css/banner.css');
-        $this->addCss('/themes/itmaker-banner-store/assets/css/font-banner.css');
+        $this->addCss('/plugins/shohabbos/banner/assets/css/banner.css');
+        $this->addCss('/themes/shohabbos-banner-store/assets/css/font-banner.css');
 
         BackendMenu::setContext('Shohabbos.Banner', 'banner', 'banners');
     }
@@ -43,10 +43,10 @@ class Banners extends Controller
                 $banner->delete();
             }
 
-            Flash::success(Lang::get('itmaker.banner::lang.banners.delete_selected_success'));
+            Flash::success(Lang::get('shohabbos.banner::lang.banners.delete_selected_success'));
         }
         else {
-            Flash::error(Lang::get('itmaker.banner::lang.banners.delete_selected_empty'));
+            Flash::error(Lang::get('shohabbos.banner::lang.banners.delete_selected_empty'));
         }
 
         return $this->listRefresh();

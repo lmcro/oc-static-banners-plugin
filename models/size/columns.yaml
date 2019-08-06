@@ -4,5 +4,5 @@
 
 columns:
     name:
-        label: itmaker.banner::lang.fields.name
+        label: shohabbos.banner::lang.fields.name
         searchable: true

@@ -37,7 +37,7 @@ return [
         'button_label_comment' => 'Display only if <b>Link type</b> is defined ',
         'bottom_caption'       => 'Bottom text',
         'example'              => 'Example',
-        'example_comment'      => '<img src="/plugins/itmaker/banner/assets/images/banners/example.png" class="img-responsive" />',
+        'example_comment'      => '<img src="/plugins/shohabbos/banner/assets/images/banners/example.png" class="img-responsive" />',
         'size_name_comment'    => 'Format must be <b>{number}x{number}</b>. Example: <code>300x300</code>',
         'background'           => 'Background Image',
         'icon'                 => 'Icon button',

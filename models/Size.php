@@ -18,7 +18,7 @@ class Size extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'itmaker_banner_sizes';
+    public $table = 'shohabbos_banner_sizes';
 
     public $rules = [
         'name' => 'required|regex:/(^[0-9]+)(?:[xX])([0-9]+$)/m',

@@ -21,8 +21,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'itmaker.banner::lang.plugin.name',
-            'description' => 'itmaker.banner::lang.plugin.description',
+            'name'        => 'shohabbos.banner::lang.plugin.name',
+            'description' => 'shohabbos.banner::lang.plugin.description',
             'author'      => 'Shohabbos',
             'icon'        => 'icon-picture-o'
         ];
@@ -48,13 +48,13 @@ class Plugin extends PluginBase
     public function registerPermissions()
     {
         return [
-            'itmaker.banner.banners' => [
-                'tab'   => 'itmaker.banner::lang.plugin.name',
-                'label' => 'itmaker.banner::lang.permission.access'
+            'shohabbos.banner.banners' => [
+                'tab'   => 'shohabbos.banner::lang.plugin.name',
+                'label' => 'shohabbos.banner::lang.permission.access'
             ],
-            'itmaker.banner.sizes'   => [
-                'tab'   => 'itmaker.banner::lang.plugin.name',
-                'label' => 'itmaker.banner::lang.permission.access_sizes'
+            'shohabbos.banner.sizes'   => [
+                'tab'   => 'shohabbos.banner::lang.plugin.name',
+                'label' => 'shohabbos.banner::lang.permission.access_sizes'
             ],
         ];
     }
@@ -68,24 +68,24 @@ class Plugin extends PluginBase
     {
         return [
             'banner' => [
-                'label'       => 'itmaker.banner::lang.plugin.name',
-                'url'         => Backend::url('itmaker/banner/banners'),
-                'iconSvg'     => 'plugins/itmaker/banner/assets/images/icon.svg',
-                'permissions' => ['itmaker.banner.*'],
+                'label'       => 'shohabbos.banner::lang.plugin.name',
+                'url'         => Backend::url('shohabbos/banner/banners'),
+                'iconSvg'     => 'plugins/shohabbos/banner/assets/images/icon.svg',
+                'permissions' => ['shohabbos.banner.*'],
                 'order'       => 500,
 
                 'sideMenu' => [
                     'banners'  => [
-                        'label'       => 'itmaker.banner::lang.banners.menu_label',
-                        'url'         => Backend::url('itmaker/banner/banners'),
+                        'label'       => 'shohabbos.banner::lang.banners.menu_label',
+                        'url'         => Backend::url('shohabbos/banner/banners'),
                         'icon'        => 'icon-picture-o',
-                        'permissions' => ['itmaker.banner.banners'],
+                        'permissions' => ['shohabbos.banner.banners'],
                     ],
                     'sizes'    => [
-                        'label'       => 'itmaker.banner::lang.sizes.menu_label',
-                        'url'         => Backend::url('itmaker/banner/sizes'),
+                        'label'       => 'shohabbos.banner::lang.sizes.menu_label',
+                        'url'         => Backend::url('shohabbos/banner/sizes'),
                         'icon'        => 'icon-crop',
-                        'permissions' => ['itmaker.banner.sizes'],
+                        'permissions' => ['shohabbos.banner.sizes'],
                     ]
                 ]
             ],

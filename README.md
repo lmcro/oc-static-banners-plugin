@@ -1,4 +1,4 @@
-![Banner](https://itmaker.uz)
+![Banner](https://shohabbos.uz)
 ----------
 
 ### Banners

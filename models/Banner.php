@@ -37,7 +37,7 @@ class Banner extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'itmaker_banner_banners';
+    public $table = 'shohabbos_banner_banners';
 
     public $translatable = [
         'title',

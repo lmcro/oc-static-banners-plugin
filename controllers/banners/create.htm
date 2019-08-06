@@ -1,6 +1,6 @@
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('itmaker/banner/banners') ?>"><?= e(trans('itmaker.banner::lang.banners.menu_label')) ?></a></li>
+        <li><a href="<?= Backend::url('shohabbos/banner/banners') ?>"><?= e(trans('shohabbos.banner::lang.banners.menu_label')) ?></a></li>
         <li><?= e(trans($this->pageTitle)) ?></li>
     </ul>
 <?php Block::endPut() ?>
@@ -36,7 +36,7 @@
                     <?= e(trans('backend::lang.form.create_and_close')) ?>
                 </button>
                 <span class="btn-text">
-                    <?= e(trans('backend::lang.form.or')) ?> <a href="<?= Backend::url('itmaker/banner/banners') ?>"><?= e(trans('backend::lang.form.cancel')) ?></a>
+                    <?= e(trans('backend::lang.form.or')) ?> <a href="<?= Backend::url('shohabbos/banner/banners') ?>"><?= e(trans('backend::lang.form.cancel')) ?></a>
                 </span>
             </div>
         </div>
@@ -57,6 +57,6 @@
 <?php else: ?>
 
     <p class="flash-message static error"><?= e($this->fatalError) ?></p>
-    <p><a href="<?= Backend::url('itmaker/banner/banners') ?>" class="btn btn-default"><?= e(trans('itmaker.banner::lang.banners.return_to_list')) ?></a></p>
+    <p><a href="<?= Backend::url('shohabbos/banner/banners') ?>" class="btn btn-default"><?= e(trans('shohabbos.banner::lang.banners.return_to_list')) ?></a></p>
 
 <?php endif ?>
